@@ -35,7 +35,7 @@ import random
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 random_number = random.choice(nums)
 while True:
-    user_input = input("Guess the number I am thinking of from 1 to 10 ᕦ(ò_óˇ)ᕤ: ")
+    user_input = input("Guess the number I am thinking of from 1 to 10: ")
     if int(user_input) == random_number:
         print("You got it! Seems like luck to me...")
         break
